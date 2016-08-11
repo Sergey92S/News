@@ -1,0 +1,112 @@
+.main-menu {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #cccccc;
+}
+
+.main-menu a {
+    display: block;
+    margin-bottom: -1px;
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #e5e5e5;
+}
+
+.main-menu > li {
+}
+
+.main-menu .sub-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #ffffff;
+}
+
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    color: #000000; /* Цвет текста */
+}
+
+a {
+    color: #0000FF; /* Цвет ссылок */
+}
+
+#container {
+    width: 1902px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    background: #ffffff; /* Цвет колонок */
+    border: 1px solid blue;
+}
+
+#header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #ffffff; /* Цвет фона шапки */
+    border: 1px solid blue;
+}
+
+#nav {
+    float: left;
+    width: 180px;
+    padding: 5px;
+    border: 1px solid blue;
+    height: 870px;
+    margin-right: 5%;
+}
+
+#content {
+    background: #ffffff;
+    height: 780px;
+    margin-left: 10%;
+    padding: 50px;
+    border: 1px solid blue;
+}
+
+h2 {
+    margin: 0 0 1em;
+}
+
+#footer {
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #ffffff; /* Цвет фона подвала */
+    border: 1px solid blue;
+}
+
+.img-test {
+    max-width: 100px;
+    max-height: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.input_button_style {
+    margin-left:10px;
+    text-align:center;
+    overflow:hidden;
+    width:130px;
+    height:20px;
+    border:1px solid #3D3D3D;
+    background-color:#2B2B2B;
+    border-radius:4px;
+}
+
+.input_font_style {
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.input_input_style {
+    margin-top:-50px;
+    margin-left:-410px;
+    -moz-opacity:0;
+    filter:alpha(opacity=0);
+    opacity:0;
+    font-size:150px;
+    height:100px;
+}

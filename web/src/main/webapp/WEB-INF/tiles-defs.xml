@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache
+Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="layout" template="/jsp/layout.jsp">
+        <put-attribute name="header" value="/jsp/tiles/headernews.jsp" />
+        <put-attribute name="nav" value="/jsp/tiles/navnews.jsp"/>
+        <put-attribute name="footer" value="/jsp/tiles/footer.jsp"/>
+    </definition>
+
+    <definition name="newslistlayout" template="/jsp/layouts/newslistlayout.jsp">
+        <put-attribute name="header" value="/jsp/tiles/headernews.jsp" />
+        <put-attribute name="nav" value="/jsp/tiles/navnews.jsp"/>
+        <put-attribute name="footer" value="/jsp/tiles/footer.jsp"/>
+    </definition>
+
+    <definition name="addnewslayout" template="/jsp/layouts/addnewslayout.jsp">
+        <put-attribute name="header" value="/jsp/tiles/headeradd.jsp" />
+        <put-attribute name="nav" value="/jsp/tiles/navadd.jsp"/>
+        <put-attribute name="footer" value="/jsp/tiles/footer.jsp"/>
+    </definition>
+
+    <definition name="editlayout" template="/jsp/layouts/editlayout.jsp">
+        <put-attribute name="header" value="/jsp/tiles/headeredit.jsp" />
+        <put-attribute name="nav" value="/jsp/tiles/navedit.jsp"/>
+        <put-attribute name="footer" value="/jsp/tiles/footer.jsp"/>
+    </definition>
+
+    <definition name="viewlayout" template="/jsp/layouts/viewlayout.jsp">
+        <put-attribute name="header" value="/jsp/tiles/headerview.jsp" />
+        <put-attribute name="nav" value="/jsp/tiles/navedit.jsp"/>
+        <put-attribute name="footer" value="/jsp/tiles/footer.jsp"/>
+    </definition>
+</tiles-definitions>

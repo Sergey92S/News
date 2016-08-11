@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.revotech.news.entities" auto-import="false">
+    <class name="News" table="NEWS">
+        <id name="id" type="int" column="ID">
+            <generator class="sequence">
+                <param name="sequence">NEWS_SEQ</param>
+            </generator>
+        </id>
+
+        <property name="author" column="AUTHOR" type="string"/>
+        <property name="date" column="TERM" type="string"/>
+        <property name="title" column="TITLE" type="string"/>
+        <property name="content" column="CONTENT" type="string"/>
+        <property name="image" column="IMAGE" type="string"/>
+    </class>
+</hibernate-mapping>
